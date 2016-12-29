@@ -17,3 +17,4 @@ while (ex=="Y") or (ex=="y"):
  
     print(is_year_leap(year))
     ex=input("Продолжить? (Y/N)\n ")
+
