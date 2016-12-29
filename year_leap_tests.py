@@ -1,5 +1,5 @@
 import unittest
-import TESTMODULE
+from year_leap_func import is_year_leap
 class TestStringMethods(unittest.TestCase):
     
     def test_func(self):
