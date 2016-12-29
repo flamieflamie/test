@@ -10,3 +10,6 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(is_year_leap(s2), "Год не является високосным")
         with self.assertRaises(TypeError):
               is_year_leap(s3)
+
+if __name__ == "__main__":
+    unittest.main()
