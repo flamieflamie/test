@@ -1,8 +1,4 @@
-def is_year_leap (y):
-    if (y%4 != 0):
-        return "Год не является високосным"
-    else:
-        return "Год является високосным"
+from year_leap_func import is_year_leap
 
 ex="Y"
 while (ex=="Y") or (ex=="y"):
