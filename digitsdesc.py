@@ -13,7 +13,6 @@ def count_good_numbers(digits_num):
                 summ = summ + sequence_temp[j]
                 sequence[i] = summ
             summ = 0
-            print (sequence)
         for i in range(len(sequence)):
             sequence[i] = sequence [i] + 1
     result = sum(sequence)
